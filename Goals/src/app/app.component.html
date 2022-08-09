@@ -1,0 +1,9 @@
+<div>
+  <h1>My Watch List</h1>
+  <ul>
+    <li *ngFor="let goal of goals">
+      {{goal.id}} {{goal.name}}
+    </li>
+  </ul>
+  <p *ngIf="goals.length < 3">Your watch list is too small</p>
+</div>
