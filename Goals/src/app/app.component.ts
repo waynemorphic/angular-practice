@@ -8,12 +8,4 @@ import { Goal } from './goal';
 })
 
 export class AppComponent {
-  goals:Goal[] = [
-    {id:1, name :"Watch The Avengers"},
-    {id:2, name: "Watch The Spiderman"}
-  ]
-
-  // constructor(){
-  //   this.goals = ["Watch the Avengers", "Watch Spiderman"]
-  // }
 }
