@@ -50,3 +50,11 @@ This is done so that child components are able to recieve data from parent compo
 In the template of the parent component, property binding of the child component property in parent property is then executed.
 ie `<app-goal-detail [objective]=[goal]></app-goal-detail>
 where `[objective]` is the property you decorate with `@Input` from the child component while `[goal]`is the property from the parent component
+
+## Adding Bootstrap
+`npm install --save bootstrap popper`
+
+Add `@import "~bootstrap/dist/css/bootstrap.css"` in the app/styles.css
+
+## Creating Forms
+In the app.module.ts, add `FormsModule` in the imports array since the module is not available in the angular app by default.
