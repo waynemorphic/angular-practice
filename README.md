@@ -58,3 +58,10 @@ Add `@import "~bootstrap/dist/css/bootstrap.css"` in the app/styles.css
 
 ## Creating Forms
 In the app.module.ts, add `FormsModule` in the imports array since the module is not available in the angular app by default.
+
+## Deployment to Angular Apps to GitHub
+Run `npm i angular-cli-ghpages --save-dev` to install angular-cli-pages tool
+
+Run `ng build --prod --base-href "https://GithubUserName.github.io/GithubRepoName/"` to build the project
+
+Run `npx angular-cli-ghpages --dir=dist/Project-name` to deploy the angular application to gh-pages
