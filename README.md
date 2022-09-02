@@ -29,6 +29,12 @@ Run `ng generate class <class name>`
 Components enable us in the decoupling of an application so that specific functionalities are handled by specific components.
 Run `ng generate component <component name>`
 
+## Creating a service for dependency injection
+Run `ng generate service <service folder name/service file name>`
+
+ie `ng generate service goal-service/goal`
+This creates a goal-service folder and inside it, goal as the service file
+
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
